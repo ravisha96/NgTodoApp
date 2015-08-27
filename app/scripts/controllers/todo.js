@@ -2,13 +2,13 @@
 
 /**
  * @ngdoc function
- * @name ngTodoAppApp.controller:AboutCtrl
+ * @name ngTodoAppApp.controller:TodoCtrl
  * @description
- * # AboutCtrl
+ * # TodoCtrl
  * Controller of the ngTodoAppApp
  */
-angular.module('ngTodoAppApp')
-  .controller('AboutCtrl', function ($scope) {
+angular.module('ngTodoApp')
+  .controller('TodoCtrl', function ($scope) {
     $scope.awesomeThings = [
       'HTML5 Boilerplate',
       'AngularJS',
